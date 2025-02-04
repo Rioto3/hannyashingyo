@@ -17,9 +17,6 @@ const HanyaShingyo: React.FC = () => {
     setSelectedLine(null);
   };
 
-  const splitTokens = (text: string) => {
-    return text.split('、').reverse();
-  };
   
   // 全角スペースで分割された部分に対して、スペースを調整する関数
   const formatText = (text: string) => {
