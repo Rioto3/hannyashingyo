@@ -9,6 +9,8 @@
   }
 }
 
-.ruby-line {
-  writing-mode: vertical-rl;
+.grid-flow-col {
+  grid-auto-flow: column;
+  grid-template-rows: repeat(auto-fill, minmax(0, 1fr));
+  height: 100%;
 }
