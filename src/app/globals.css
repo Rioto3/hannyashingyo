@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+/* 文字選択と拡大縮小を無効化 */
+html, body {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  touch-action: none;
+}
+
 @layer utilities {
   .writing-mode-vertical {
     writing-mode: vertical-rl;
