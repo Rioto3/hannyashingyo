@@ -45,9 +45,6 @@ src/app/
 ├── page.tsx                # Home page (Hannya Sutra display)
 ├── globals.css             # Global styles + custom utilities
 ├── hannya-sutra.json       # Sutra text data (currently in old format, being migrated)
-├── tao38/
-│   ├── page.tsx            # Tao Te Ching Chapter 38 page
-│   └── tao38.json          # Tao text data
 └── components/             # [Being created] Refactored components
 ```
 
