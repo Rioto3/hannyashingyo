@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://heartsutra.app"),
-  title: "般若心経 - Heart Sutra | Buddhist Scripture",
-  description: "Read the Heart Sutra (般若心経) with vertical Japanese text, accurate furigana annotations, and English translations. Perfect for spiritual practice, study, and meditation.",
+  metadataBase: new URL("https://hannyashingyo.vercel.app"),
+  title: "般若心経",
+  description: "般若心経を縦書きで表示し、漢字一字ずつの読みがな（ふりがな）と、やさしい現代語訳をつけました。入門者からどなたでも読める般若心経。印刷にも対応。",
   manifest: "/manifest.json",
   keywords: [
     "般若心経",
@@ -45,34 +45,33 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "ja_JP",
-    url: "https://heartsutra.app",
-    siteName: "般若心経 - Heart Sutra",
-    title: "般若心経 - Heart Sutra",
+    url: "https://hannyashingyo.vercel.app",
+    siteName: "般若心経",
+    title: "般若心経",
     description:
-      "Traditional Buddhist Heart Sutra with vertical Japanese text, accurate furigana, and English translations.",
+      "般若心経を縦書きで表示し、漢字一字ずつのふりがなとやさしい現代語訳をつけました。",
     images: [
       {
         url: "/icon-512.png",
         width: 512,
         height: 512,
-        alt: "般若心経 Heart Sutra App Icon",
+        alt: "般若心経 アプリアイコン",
         type: "image/png",
       },
       {
         url: "/icon-192.png",
         width: 192,
         height: 192,
-        alt: "Heart Sutra Icon",
+        alt: "般若心経 アイコン",
         type: "image/png",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "般若心経 - Heart Sutra",
-    description: "Read the Heart Sutra with vertical Japanese text and translations",
+    title: "般若心経",
+    description: "般若心経を縦書き・ふりがな・やさしい現代語訳で。",
     images: ["/icon-512.png"],
-    creator: "@heartsutra",
   },
   icons: {
     icon: [
@@ -123,28 +122,28 @@ export default function RootLayout({
     "@graph": [
       {
         "@type": "WebSite",
-        "@id": "https://heartsutra.app/#website",
-        url: "https://heartsutra.app",
-        name: "般若心経 - Heart Sutra",
+        "@id": "https://hannyashingyo.vercel.app/#website",
+        url: "https://hannyashingyo.vercel.app",
+        name: "般若心経",
         description:
-          "Traditional Buddhist Heart Sutra with vertical Japanese text and translations",
+          "般若心経を縦書き・ふりがな・やさしい現代語訳で表示するサイト",
         inLanguage: "ja",
         potentialAction: {
           "@type": "SearchAction",
           target: {
             "@type": "EntryPoint",
-            urlTemplate: "https://heartsutra.app/?search={search_term_string}",
+            urlTemplate: "https://hannyashingyo.vercel.app/?search={search_term_string}",
           },
           query_input: "required name=search_term_string",
         },
       },
       {
         "@type": "CreativeWork",
-        "@id": "https://heartsutra.app/#creativework",
-        url: "https://heartsutra.app",
-        name: "般若心経 (Heart Sutra)",
+        "@id": "https://hannyashingyo.vercel.app/#creativework",
+        url: "https://hannyashingyo.vercel.app",
+        name: "般若心経",
         description:
-          "The Heart Sutra is one of the most important texts in Mahayana Buddhism, presenting the essence of Buddhist wisdom in concise form.",
+          "般若心経は大乗仏教の最も重要な経典のひとつで、仏教の智慧の真髄を簡潔に説いたものです。",
         inLanguage: "ja",
         author: {
           "@type": "Organization",
@@ -165,7 +164,7 @@ export default function RootLayout({
         dateModified: new Date().toISOString().split("T")[0],
         image: {
           "@type": "ImageObject",
-          url: "https://heartsutra.app/icon-512.png",
+          url: "https://hannyashingyo.vercel.app/icon-512.png",
           width: 512,
           height: 512,
         },
@@ -179,12 +178,12 @@ export default function RootLayout({
       },
       {
         "@type": "Organization",
-        "@id": "https://heartsutra.app/#organization",
-        name: "Heart Sutra Reader",
-        url: "https://heartsutra.app",
+        "@id": "https://hannyashingyo.vercel.app/#organization",
+        name: "般若心経",
+        url: "https://hannyashingyo.vercel.app",
         logo: {
           "@type": "ImageObject",
-          url: "https://heartsutra.app/icon-512.png",
+          url: "https://hannyashingyo.vercel.app/icon-512.png",
           width: 512,
           height: 512,
         },
@@ -195,13 +194,13 @@ export default function RootLayout({
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://heartsutra.app/#breadcrumb",
+        "@id": "https://hannyashingyo.vercel.app/#breadcrumb",
         itemListElement: [
           {
             "@type": "ListItem",
             position: 1,
             name: "Home",
-            item: "https://heartsutra.app",
+            item: "https://hannyashingyo.vercel.app",
           },
         ],
       },

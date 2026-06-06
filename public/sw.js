@@ -1,7 +1,7 @@
-// Service Worker for 般若心経 (Heart Sutra) App
+// Service Worker for 般若心経 App
 // Provides offline support and asset caching
 
-const CACHE_NAME = 'heartsutra-v1';
+const CACHE_NAME = 'hannyashingyo-v1';
 const ASSETS_TO_CACHE = [
   '/',
   '/index.html',

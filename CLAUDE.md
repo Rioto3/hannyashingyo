@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-**般若心経 (Heart Sutra) Reader** - A vertical Japanese text display application for reading Buddhist scriptures with furigana annotations (ruby text) and translations.
+**般若心経** - A vertical Japanese text display application for reading the 般若心経 (Heart Sutra) with per-character furigana annotations (ruby text) and easy modern translations. Public URL: https://hannyashingyo.vercel.app/
 
 - **Technology Stack**: Next.js 15.5.19, React 19, TypeScript 5, Tailwind CSS 3.4.1
 - **Key Feature**: Vertical right-to-left text rendering (writing-mode: vertical-rl) with interactive translations

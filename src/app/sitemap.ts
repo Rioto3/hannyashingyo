@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://heartsutra.app';
+  const baseUrl = 'https://hannyashingyo.vercel.app';
   const lastModified = new Date();
 
   return [

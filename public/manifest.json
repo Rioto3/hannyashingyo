@@ -1,7 +1,7 @@
 {
-  "name": "般若心経 - Heart Sutra",
+  "name": "般若心経",
   "short_name": "般若心経",
-  "description": "Traditional Buddhist Heart Sutra with vertical Japanese text, accurate furigana annotations, and English translations. Supports offline reading and printing.",
+  "description": "般若心経を縦書きで表示し、漢字一字ずつのふりがなとやさしい現代語訳をつけました。オフライン閲覧・印刷にも対応。",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
@@ -118,9 +118,9 @@
   ],
   "shortcuts": [
     {
-      "name": "Read Heart Sutra",
-      "short_name": "Read",
-      "description": "Open and read the Heart Sutra",
+      "name": "般若心経を読む",
+      "short_name": "読む",
+      "description": "般若心経を開いて読む",
       "url": "/?mode=read",
       "icons": [
         {
