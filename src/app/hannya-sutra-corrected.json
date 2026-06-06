@@ -1,0 +1,271 @@
+{
+  "sutraText": [
+    {
+      "text": "◯仏説般若波羅蜜多心経",
+      "rubyMap": [
+        {"char": "◯", "ruby": ""},
+        {"char": "仏", "ruby": "ぶつ"},
+        {"char": "説", "ruby": "せつ"},
+        {"char": "般", "ruby": "はん"},
+        {"char": "若", "ruby": "にゃ"},
+        {"char": "波", "ruby": "は"},
+        {"char": "羅", "ruby": "ら"},
+        {"char": "蜜", "ruby": "みつ"},
+        {"char": "多", "ruby": "た"},
+        {"char": "心", "ruby": "しん"},
+        {"char": "経", "ruby": "きょう"}
+      ],
+      "translation": "偉大なる智慧の完成についての心髄の経"
+    },
+    {
+      "text": " ",
+      "rubyMap": [{"char": " ", "ruby": ""}],
+      "translation": ""
+    },
+    {
+      "text": " ",
+      "rubyMap": [{"char": " ", "ruby": ""}],
+      "translation": ""
+    },
+    {
+      "text": "観自在菩薩、",
+      "rubyMap": [
+        {"char": "観", "ruby": "かん"},
+        {"char": "自", "ruby": "じ"},
+        {"char": "在", "ruby": "ざい"},
+        {"char": "菩", "ruby": "ぼ"},
+        {"char": "薩", "ruby": "さつ"},
+        {"char": "、", "ruby": ""}
+      ],
+      "translation": "観自在菩薩が、"
+    },
+    {
+      "text": "行深般若波羅蜜多時、",
+      "rubyMap": [
+        {"char": "行", "ruby": "ぎょう"},
+        {"char": "深", "ruby": "じん"},
+        {"char": "般", "ruby": "はん"},
+        {"char": "若", "ruby": "にゃ"},
+        {"char": "波", "ruby": "は"},
+        {"char": "羅", "ruby": "ら"},
+        {"char": "蜜", "ruby": "みつ"},
+        {"char": "多", "ruby": "た"},
+        {"char": "時", "ruby": "じ"},
+        {"char": "、", "ruby": ""}
+      ],
+      "translation": "深遠なる智慧の完成を実践していたとき、"
+    },
+    {
+      "text": "照見五蘊皆空、",
+      "rubyMap": [
+        {"char": "照", "ruby": "しょう"},
+        {"char": "見", "ruby": "けん"},
+        {"char": "五", "ruby": "ご"},
+        {"char": "蘊", "ruby": "うん"},
+        {"char": "皆", "ruby": "かい"},
+        {"char": "空", "ruby": "くう"},
+        {"char": "、", "ruby": ""}
+      ],
+      "translation": "もろもろの存在の五つの構成要素は、皆、固有の本性・実体を持たない「空」であると見極め、"
+    },
+    {
+      "text": "度一切苦厄。",
+      "rubyMap": [
+        {"char": "度", "ruby": "ど"},
+        {"char": "一", "ruby": "いっ"},
+        {"char": "切", "ruby": "さい"},
+        {"char": "苦", "ruby": "く"},
+        {"char": "厄", "ruby": "やく"},
+        {"char": "。", "ruby": ""}
+      ],
+      "translation": "だからこそ、あらゆる苦しみと災いを克服した。"
+    },
+    {
+      "text": "舍利子、",
+      "rubyMap": [
+        {"char": "舍", "ruby": "しゃ"},
+        {"char": "利", "ruby": "り"},
+        {"char": "子", "ruby": "し"},
+        {"char": "、", "ruby": ""}
+      ],
+      "translation": "舎利子よ、"
+    },
+    {
+      "text": "色不異空、空不異色、",
+      "rubyMap": [
+        {"char": "色", "ruby": "しき"},
+        {"char": "不", "ruby": "ふ"},
+        {"char": "異", "ruby": "い"},
+        {"char": "空", "ruby": "くう"},
+        {"char": "、", "ruby": ""},
+        {"char": "空", "ruby": "くう"},
+        {"char": "不", "ruby": "ふ"},
+        {"char": "異", "ruby": "い"},
+        {"char": "色", "ruby": "しき"},
+        {"char": "、", "ruby": ""}
+      ],
+      "translation": "形あるもの（色）は、空に異ならず、空は、形あるものと異ならないのである。"
+    },
+    {
+      "text": "色即是空、空即是色、",
+      "rubyMap": [
+        {"char": "色", "ruby": "しき"},
+        {"char": "即", "ruby": "そく"},
+        {"char": "是", "ruby": "ぜ"},
+        {"char": "空", "ruby": "くう"},
+        {"char": "、", "ruby": ""},
+        {"char": "空", "ruby": "くう"},
+        {"char": "即", "ruby": "そく"},
+        {"char": "是", "ruby": "ぜ"},
+        {"char": "色", "ruby": "しき"},
+        {"char": "、", "ruby": ""}
+      ],
+      "translation": "形あるものは空であり、空は形あるものなのである。"
+    },
+    {
+      "text": "受想行識亦復如是。",
+      "rubyMap": [
+        {"char": "受", "ruby": "じゅ"},
+        {"char": "想", "ruby": "そう"},
+        {"char": "行", "ruby": "ぎょう"},
+        {"char": "識", "ruby": "しき"},
+        {"char": "亦", "ruby": "やく"},
+        {"char": "復", "ruby": "ぶ"},
+        {"char": "如", "ruby": "にょ"},
+        {"char": "是", "ruby": "ぜ"},
+        {"char": "。", "ruby": ""}
+      ],
+      "translation": "そして、感受作用・表象作用・形成作用・識別作用もまた、同じく空なのである。"
+    },
+    {
+      "text": "是諸法空相、",
+      "rubyMap": [
+        {"char": "是", "ruby": "ぜ"},
+        {"char": "諸", "ruby": "しょ"},
+        {"char": "法", "ruby": "ほう"},
+        {"char": "空", "ruby": "くう"},
+        {"char": "相", "ruby": "そう"},
+        {"char": "、", "ruby": ""}
+      ],
+      "translation": "あらゆる存在は空を特質としているから、"
+    },
+    {
+      "text": "不生不滅、",
+      "rubyMap": [
+        {"char": "不", "ruby": "ふ"},
+        {"char": "生", "ruby": "しょう"},
+        {"char": "不", "ruby": "ふ"},
+        {"char": "滅", "ruby": "めつ"},
+        {"char": "、", "ruby": ""}
+      ],
+      "translation": "生じることも滅することもなく、"
+    },
+    {
+      "text": "不垢不浄、不増不減。",
+      "rubyMap": [
+        {"char": "不", "ruby": "ふ"},
+        {"char": "垢", "ruby": "く"},
+        {"char": "不", "ruby": "ふ"},
+        {"char": "浄", "ruby": "じょう"},
+        {"char": "、", "ruby": ""},
+        {"char": "不", "ruby": "ふ"},
+        {"char": "増", "ruby": "ぞう"},
+        {"char": "不", "ruby": "ふ"},
+        {"char": "減", "ruby": "げん"},
+        {"char": "。", "ruby": ""}
+      ],
+      "translation": "汚れることも清まることもなく、増えることも減ることもない。"
+    },
+    {
+      "text": "是故空中、無色無受想行識、",
+      "rubyMap": [
+        {"char": "是", "ruby": "ぜ"},
+        {"char": "故", "ruby": "こ"},
+        {"char": "空", "ruby": "くう"},
+        {"char": "中", "ruby": "ちゅう"},
+        {"char": "、", "ruby": ""},
+        {"char": "無", "ruby": "む"},
+        {"char": "色", "ruby": "しき"},
+        {"char": "無", "ruby": "む"},
+        {"char": "受", "ruby": "じゅ"},
+        {"char": "想", "ruby": "そう"},
+        {"char": "行", "ruby": "ぎょう"},
+        {"char": "識", "ruby": "しき"},
+        {"char": "、", "ruby": ""}
+      ],
+      "translation": "だからこそ、空であることには、形あるものは存在せず、感受作用・表象作用・形成作用・識別作用も存在しない。"
+    },
+    {
+      "text": "無眼耳鼻舌身意、",
+      "rubyMap": [
+        {"char": "無", "ruby": "む"},
+        {"char": "眼", "ruby": "げん"},
+        {"char": "耳", "ruby": "に"},
+        {"char": "鼻", "ruby": "び"},
+        {"char": "舌", "ruby": "ぜつ"},
+        {"char": "身", "ruby": "しん"},
+        {"char": "意", "ruby": "い"},
+        {"char": "、", "ruby": ""}
+      ],
+      "translation": "眼・耳・鼻・舌・身体・心も存在しない。"
+    },
+    {
+      "text": "無色声香味触法、",
+      "rubyMap": [
+        {"char": "無", "ruby": "む"},
+        {"char": "色", "ruby": "しき"},
+        {"char": "声", "ruby": "しょう"},
+        {"char": "香", "ruby": "こう"},
+        {"char": "味", "ruby": "み"},
+        {"char": "触", "ruby": "そく"},
+        {"char": "法", "ruby": "ほう"},
+        {"char": "、", "ruby": ""}
+      ],
+      "translation": "これらの感覚器官の対象である形・音・香り・味・触れられるもの・心の対象の法も存在しない。"
+    },
+    {
+      "text": "無眼界、乃至無意識界、",
+      "rubyMap": [
+        {"char": "無", "ruby": "む"},
+        {"char": "眼", "ruby": "げん"},
+        {"char": "界", "ruby": "かい"},
+        {"char": "、", "ruby": ""},
+        {"char": "乃", "ruby": "な"},
+        {"char": "至", "ruby": "いし"},
+        {"char": "無", "ruby": "む"},
+        {"char": "意", "ruby": "い"},
+        {"char": "識", "ruby": "しき"},
+        {"char": "界", "ruby": "かい"},
+        {"char": "、", "ruby": ""}
+      ],
+      "translation": "範疇としての眼から、意識にいたるまでの十八界もない。"
+    },
+    {
+      "text": "三世諸仏、",
+      "rubyMap": [
+        {"char": "三", "ruby": "さん"},
+        {"char": "世", "ruby": "ぜ"},
+        {"char": "諸", "ruby": "しょ"},
+        {"char": "仏", "ruby": "ぶつ"},
+        {"char": "、", "ruby": ""}
+      ],
+      "translation": "過去・現在・未来の三世のあらゆる仏たちもまた、"
+    },
+    {
+      "text": "亦依般若波羅蜜多故、",
+      "rubyMap": [
+        {"char": "亦", "ruby": "やく"},
+        {"char": "依", "ruby": "え"},
+        {"char": "般", "ruby": "はん"},
+        {"char": "若", "ruby": "にゃ"},
+        {"char": "波", "ruby": "は"},
+        {"char": "羅", "ruby": "ら"},
+        {"char": "蜜", "ruby": "みつ"},
+        {"char": "多", "ruby": "た"},
+        {"char": "故", "ruby": "ゆえ"},
+        {"char": "、", "ruby": ""}
+      ],
+      "translation": "智慧の完成に依るのであり、"
+    }
+  ]
+}
