@@ -56,7 +56,8 @@ const HanyaShingyo: React.FC = () => {
     <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
       <div
         ref={containerRef}
-        className="w-[400px] text-left writing-mode-vertical text-2xl font-serif text-gray-800 leading-relaxed tracking-wider max-h-[80vh] overflow-auto p-8 bg-white shadow-lg rounded-lg flex flex-col-reverse select-none">
+        className="w-[400px] text-left writing-mode-vertical text-2xl font-serif text-gray-800 leading-relaxed tracking-wider max-h-[80vh] overflow-auto p-8 shadow-lg rounded-lg flex flex-col-reverse select-none"
+        style={{ backgroundColor: '#fafafa' }}>
         {[...sutraText].reverse().map((line, index) => (
           <div
             key={index}
