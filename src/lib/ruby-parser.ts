@@ -29,7 +29,7 @@ export function convertToRubyMap(oldEntry: OldSutraEntry): NewSutraEntry {
 
   // Attempt to parse ruby string - THIS IS A FALLBACK ONLY
   // Each entry needs manual review for accuracy
-  const rubyMaps: RubyMap[] = chars.map((char, index) => ({
+  const rubyMaps: RubyMap[] = chars.map((char) => ({
     char,
     ruby: "", // Will be filled manually or via authoritative source
   }));

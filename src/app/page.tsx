@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import sutraData from './hannya-sutra.json';
 
 
@@ -8,6 +8,14 @@ import sutraData from './hannya-sutra.json';
 const HanyaShingyo: React.FC = () => {
   const [selectedLine, setSelectedLine] = useState<{text: string, translation: string} | null>(null);
   const { sutraText } = sutraData;
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  // スクロール位置を右端に初期化
+  useEffect(() => {
+    if (containerRef.current) {
+      containerRef.current.scrollLeft = containerRef.current.scrollWidth;
+    }
+  }, []);
 
   const handleLineClick = (line: {text: string, translation: string}) => {
     setSelectedLine(line);
@@ -30,7 +38,9 @@ const HanyaShingyo: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
-      <div className="w-[400px] text-left writing-mode-vertical text-2xl font-serif text-gray-800 leading-relaxed tracking-wider max-h-[80vh] overflow-auto p-8 bg-white shadow-lg rounded-lg flex flex-col-reverse select-none">
+      <div
+        ref={containerRef}
+        className="w-[400px] text-left writing-mode-vertical text-2xl font-serif text-gray-800 leading-relaxed tracking-wider max-h-[80vh] overflow-auto p-8 bg-white shadow-lg rounded-lg flex flex-col-reverse select-none">
         {[...sutraText].reverse().map((line, index) => (
           <div 
             key={index} 
