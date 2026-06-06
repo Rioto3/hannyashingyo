@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 般若心経
 
-## Getting Started
+> 般若心経を、いちばんシンプルに読むためのアプリ
 
-First, run the development server:
+公開URL: **https://hannyashingyo.vercel.app/**
+
+般若心経を縦書きで表示し、漢字一字ずつにふりがなを振り、やさしい現代語訳をつけました。仏教の入門者から、毎日読経する方まで、どなたでも使えることを目指しています。印刷して使うこともできます。
+
+---
+
+## 特長
+
+- **縦書き表示** — 伝統的なお経のかたちで、右から左へ読みます
+- **一字ずつのふりがな** — 漢字一文字ごとに読みを対応させ、読み間違いを防ぎます
+- **やさしい現代語訳** — 行をタップすると、わかりやすい意訳が表示されます。専門用語は原語を残しつつ補足しています
+- **オフライン対応（PWA）** — スマホのホーム画面に追加すれば、アプリのように・電波がなくても読めます
+- **印刷対応** — そのまま印刷して紙でも使えます
+
+---
+
+## 使い方
+
+1. ページを開くと、右端（経の冒頭）から表示されます
+2. 左へスクロールしながら読み進めます
+3. 各行をタップすると、その箇所の現代語訳が表示されます
+
+---
+
+## 開発
+
+このプロジェクトは [Next.js](https://nextjs.org)（App Router）+ React + TypeScript + Tailwind CSS で作られています。
 
 ```bash
+# 開発サーバー起動
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# 本番ビルド
+npm run build
+
+# 本番サーバー起動
+npm start
+
+# Lint
+npm run lint
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+開発サーバーは [http://localhost:3000](http://localhost:3000) で起動します。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### データ構造
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+経の本文は [`src/app/hannya-sutra.json`](src/app/hannya-sutra.json) に格納されています。各行は次の形式です。
 
-## Learn More
+```json
+{
+  "text": "観自在菩薩、",
+  "rubyMap": [
+    { "char": "観", "ruby": "かん" },
+    { "char": "自", "ruby": "じ" },
+    { "char": "在", "ruby": "ざい" },
+    { "char": "菩", "ruby": "ぼ" },
+    { "char": "薩", "ruby": "さつ" },
+    { "char": "、", "ruby": "" }
+  ],
+  "translation": "観自在菩薩（観音さま）が、"
+}
+```
 
-To learn more about Next.js, take a look at the following resources:
+- `text` — 経の本文（漢字）
+- `rubyMap` — 漢字一字ずつとふりがなの対応（句読点・空白は `ruby` を空文字に）
+- `translation` — やさしい現代語訳
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+ふりがなは HTML の `<ruby>` / `<rt>` タグで描画され、縦書きでも各文字に正しく対応します。
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## ライセンス
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+般若心経の本文は仏教の古典であり、パブリックドメインです。現代語訳・ふりがな・アプリの実装はこのリポジトリに帰属します。
