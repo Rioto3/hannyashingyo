@@ -5,7 +5,7 @@
 @layer utilities {
   .writing-mode-vertical {
     writing-mode: vertical-rl;
-    text-orientation: mixed;
+    text-orientation: upright;
   }
 }
 
@@ -13,4 +13,22 @@
   grid-auto-flow: column;
   grid-template-rows: repeat(auto-fill, minmax(0, 1fr));
   height: 100%;
+}
+
+/* 縦書きのルビ表示（文字の右側に配置） */
+.writing-mode-vertical ruby {
+  ruby-position: over;
+  ruby-align: center;
+}
+
+.writing-mode-vertical rt {
+  font-size: 0.4em;
+  color: #6b7280;
+  font-weight: normal;
+  letter-spacing: 0;
+}
+
+/* ruby 非対応ブラウザ向けフォールバック（括弧）を非表示 */
+rp {
+  display: none;
 }
