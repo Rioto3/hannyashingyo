@@ -18,4 +18,4 @@ Allow: /
 Crawl-delay: 1
 
 # Sitemaps
-Sitemap: https://heartsutra.app/sitemap.xml
+Sitemap: https://hannyashingyo.vercel.app/sitemap.xml
