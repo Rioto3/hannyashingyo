@@ -52,17 +52,10 @@ export const metadata: Metadata = {
       "般若心経を縦書きで表示し、漢字一字ずつのふりがなとやさしい現代語訳をつけました。",
     images: [
       {
-        url: "/icon-512.png",
-        width: 512,
-        height: 512,
-        alt: "般若心経 アプリアイコン",
-        type: "image/png",
-      },
-      {
-        url: "/icon-192.png",
-        width: 192,
-        height: 192,
-        alt: "般若心経 アイコン",
+        url: "/ogp.png",
+        width: 1200,
+        height: 630,
+        alt: "般若心経 縦書きウェブアプリ",
         type: "image/png",
       },
     ],
@@ -71,7 +64,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "般若心経",
     description: "般若心経を縦書き・ふりがな・やさしい現代語訳で。",
-    images: ["/icon-512.png"],
+    images: ["/ogp.png"],
   },
   icons: {
     icon: [
@@ -164,9 +157,9 @@ export default function RootLayout({
         dateModified: new Date().toISOString().split("T")[0],
         image: {
           "@type": "ImageObject",
-          url: "https://hannyashingyo.vercel.app/icon-512.png",
-          width: 512,
-          height: 512,
+          url: "https://hannyashingyo.vercel.app/ogp.png",
+          width: 1200,
+          height: 630,
         },
         isAccessibleForFree: true,
         offers: {
